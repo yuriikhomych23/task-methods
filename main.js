@@ -17,29 +17,4 @@
 // }
 
 
-//TASK1
-
-
-let str = prompt('');
-let res = str.indexOf(' ')
-if (res < 0) {
-    console.log('Пробіли відсутні')
-} else {
-    for (let i = 1; i <= (str.length - res) + 1; i++) {
-        console.log(`Кількість пробілів складає: ${res}`)
-    }
-}
-
-
-
-// let res = str.indexOf(' ');
-// if(res < 0) {
-//     console.log('Пробіли відстуні')
-// } else {
-//     let sum = 1;
-//     for (let i = 1; i < sum; i++) {
-//         console.log(sum)
-//     }
-// }
-
-// console.log(res);
+//ЗРОБИВ ТІЛЬКИ ДВА З ЧОТИРЬОХ 
